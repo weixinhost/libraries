@@ -8,10 +8,7 @@
 
     |---- libs   (基础类库)
     |---- tools  (开发工具）
-    |---- templates (模板程序)
     |---- yar_protocol (yar协议的其他语言实现）
-
-
 
 ###贡献
 

@@ -258,7 +258,7 @@ class WeixinhostWechat
         return $this;
     }
 
-    public function send(){
+    public function reply(){
         return $this->reply;
     }
 
