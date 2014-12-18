@@ -220,16 +220,7 @@ class WeixinhostWechat
         }
     }
 
-    /**
-     * 获取模板消息ID
-     * 经过验证，这个和普通的消息MsgId不一样
-     */
-    public function getRevTplMsgID(){
-        if (isset($this->_receive['MsgID'])){
-            return $this->_receive['MsgID'];
-        } else
-            return false;
-    }
+
 
     /*** 回复文字消息
      * @param $message string
